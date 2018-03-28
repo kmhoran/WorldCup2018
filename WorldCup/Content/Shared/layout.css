@@ -1,0 +1,32 @@
+﻿#layout-logo {
+  font-size: 1.5em; }
+  #layout-logo img {
+    height: 1.7em; }
+
+.container {
+  padding: 3em; }
+
+/* Ressable Objects */
+.label-box {
+  min-height: 10em;
+  border-radius: 5px;
+  border: 2px solid #555;
+  background-color: #eee; }
+  .label-box .label-box-head {
+    background-color: #555;
+    color: #eee;
+    font-weight: 700;
+    font-size: 1.2em;
+    padding: 0 1em; }
+  .label-box .label-box-body {
+    padding: 0.5em 1em; }
+
+.simple-box {
+  min-height: 10em;
+  border-radius: 5px;
+  border: 2px solid #555;
+  background-color: #eee;
+  padding: 0.5em 1em; }
+
+/* End Reusable Objects */
+

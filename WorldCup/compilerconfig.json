@@ -1,0 +1,14 @@
+﻿[
+  {
+    "outputFile": "Content/Shared/theme.css",
+    "inputFile": "Content/Shared/theme.scss"
+  },
+  {
+    "outputFile": "Content/Shared/layout.css",
+    "inputFile": "Content/Shared/layout.scss"
+  },
+  {
+    "outputFile": "Content/Brackets/Brackets.css",
+    "inputFile": "Content/Brackets/Brackets.scss"
+  }
+]

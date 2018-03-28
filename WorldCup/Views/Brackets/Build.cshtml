@@ -1,0 +1,57 @@
+﻿@{
+    Layout = "~/Views/Shared/_WorldCupLayout1.cshtml";
+    ViewBag.Title = "Bracket Builder";
+}
+@section Meta{
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/Brackets/Brackets.min.css" rel="stylesheet" />
+}
+
+<div ng-controller="bracketController as BrktC">
+    <div class="row">
+        <table class="group-stage-table">
+            <tr>
+                <td>
+                    <bracket-group-stage group="BrktC.Group.A"></bracket-group-stage>
+                </td>
+                <td>
+                    <bracket-group-stage group="BrktC.Group.B"></bracket-group-stage>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <bracket-group-stage group="BrktC.Group.C"></bracket-group-stage>
+                </td>
+                <td>
+                    <bracket-group-stage group="BrktC.Group.D"></bracket-group-stage>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <bracket-group-stage group="BrktC.Group.E"></bracket-group-stage>
+                </td>
+                <td>
+                    <bracket-group-stage group="BrktC.Group.F"></bracket-group-stage>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <bracket-group-stage group="BrktC.Group.G"></bracket-group-stage>
+                </td>
+                <td>
+                    <bracket-group-stage group="BrktC.Group.H"></bracket-group-stage>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</div>
+
+
+
+
+@section Scripts{
+    <script src="~/Scripts/App/Brackets/bracketGroupStage.controller.js"></script>
+    <script src="~/Scripts/App/Brackets/bracketGroupStage.directive.js"></script>
+    <script src="~/Scripts/App/Brackets/bracket.controller.js"></script>
+}
