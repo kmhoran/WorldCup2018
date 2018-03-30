@@ -1,0 +1,19 @@
+﻿<li class="game game-top">
+    <div class="team"
+         ng-click="vm.selectTeam(vm.team1)">
+        <img class="team-flag" 
+             ng-src="{{vm.team1.FlagSrc}}"
+             ng-if="vm.team1 != null" />
+        <div class="team-name">{{vm.team1.Country}} {{vm.team1.KnockOutWins}}</div>
+    </div>
+</li>
+<li class="game game-spacer">&nbsp;</li>
+<li class="game game-bottom ">
+    <div class="team"
+         ng-click="vm.selectTeam(vm.team2)">
+        <img class="team-flag" 
+             ng-src="{{vm.team2.FlagSrc}}" 
+             ng-if="vm.team2 != null"/>
+        <div class="team-name">{{vm.team2.Country}} {{vm.team2.KnockOutWins}}</div>
+    </div>
+</li>

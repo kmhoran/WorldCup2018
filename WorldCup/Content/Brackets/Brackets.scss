@@ -1,36 +1,100 @@
 ﻿
+/* team tiles */
+.team {
+    margin: 0.5em;
+    text-align: center;
+    width: 6em;
+}
+
+.team:hover {
+    cursor: pointer;
+}
 
 /* Builder Group Stage*/
-.group-stage-table{
-    .group-name{
+.group-stage-table {
+     font-size: 0.8em;
+    .group-name {
         font-weight: 700;
         font-size: 1.2em;
     }
-    .group-stage-instructions{
+
+    .group-stage-instructions {
         font-size: 0.8em;
     }
-    .team-container{
-        
+
+    .team-container {
     }
-    .team{
+
+    .team {
         display: inline-block;
-        margin: 0.5em;
-        text-align: center;
-        width: 6em;
     }
-    .team-flag{
+
+    .team.winner .team-name {
+        font-weight: 700;
+    }
+
+    .team-flag {
         width: 4em;
     }
-    .action-button{
+
+    .action-button {
         width: 3em;
         height: 3em;
         text-align: center;
         border-radius: 5000px;
         border: 2px solid #888;
-        margin:auto;
-    }
-    .action-text{
-        font-size: 1.5em;
+        margin: auto;
     }
 
+    .team:hover .action-button {
+        color: red;
+        border-color: red;
+    }
+
+    .action-text {
+        font-size: 1.5em;
+    }
+}
+
+/* Builder Knockout */
+
+#knock-out {
+    font-size: 0.6em;
+    .round-of-16{
+        background-color: #eef;
+        margin: 0.5em 0;
+        border-radius: 7px;
+        padding-left: 0.3em;
+    }
+    .team {
+        /*border: 1px solid red;*/
+        width: 10em;
+        text-align: left;
+        height: 2.5em;
+
+        
+    }
+    .team.none{
+        background-color: green;
+    }
+
+    .team-name {
+        display: inline-block;
+    }
+
+    .team-flag {
+        width: 2em;
+        display: inline-block;
+        margin-right: 1em;
+
+    }
+    #champion .team{
+        width: 11em;
+    }
+
+    #trophy {
+        display: inline;
+        width: 1em;
+        margin-left: 0.7em;
+    }
 }

@@ -3,7 +3,7 @@
 
 /**
 * @desc Directive for selecting group-stage winners and pushing them to the round of 16
-* @example <bracket-group-stage group="A"></bracket-group-stage>
+* @example <bracket-group-stage group="[groupObject]"></bracket-group-stage>
 */
 (function () {
     "use strict";
@@ -24,7 +24,7 @@
             controller: BracketGroupStageController,
             controllerAs: 'vm',
             bindToController: true,
-            templateUrl: '/Scripts/App/Brackets/bracketGroupStage.directive.html',
+            templateUrl: '/Scripts/App/Brackets/bracketGroupStage.template.html',
             restrict: 'EA'
             
         };

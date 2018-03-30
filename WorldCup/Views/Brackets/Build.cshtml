@@ -5,6 +5,7 @@
 @section Meta{
     <title>@ViewBag.Title</title>
     <link href="~/Content/Brackets/Brackets.min.css" rel="stylesheet" />
+    <link href="~/Content/Brackets/TournamentBracketByQluij.min.css" rel="stylesheet" />
 }
 
 <div ng-controller="bracketController as BrktC">
@@ -44,6 +45,154 @@
             </tr>
         </table>
     </div>
+    <!-- /.row -->
+    <div class="row">
+        <main id="knock-out">
+            <ul class="round round-1">
+                <li class="spacer">&nbsp;</li>
+
+                <bracket-knock-out class="round-of-16"
+                                   ng-model="BrktC.Group.A.Winner"
+                                   team1='BrktC.Group.A.Winner'
+                                   team2='BrktC.Group.B.RunnerUp'
+                                   winner='BrktC.matchWinner.fourtyNine'></bracket-knock-out>
+
+                <li class="spacer">&nbsp;</li>
+
+                <bracket-knock-out class="round-of-16"
+                                   ng-model="BrktC.Group.C.Winner"
+                                   team1='BrktC.Group.C.Winner'
+                                     team2='BrktC.Group.D.RunnerUp'
+                                     winner='BrktC.matchWinner.fifty'></bracket-knock-out>
+
+                <li class="spacer">&nbsp;</li>
+
+
+                <bracket-knock-out class="round-of-16"
+                                   ng-model="BrktC.Group.E.Winner"
+                                   team1='BrktC.Group.E.Winner'
+                                   team2='BrktC.Group.F.RunnerUp'
+                                   winner='BrktC.matchWinner.fiftyThree'></bracket-knock-out>
+
+                <li class="spacer">&nbsp;</li>
+
+                <bracket-knock-out class="round-of-16"
+                                   ng-model="BrktC.Group.G.Winner"
+                                   team1='BrktC.Group.G.Winner'
+                                   team2='BrktC.Group.H.RunnerUp'
+                                   winner='BrktC.matchWinner.fiftyFour'></bracket-knock-out>
+
+                <li class="spacer">&nbsp;</li>
+
+                <bracket-knock-out class="round-of-16"
+                                   ng-model="BrktC.Group.B.Winner"
+                                   team1='BrktC.Group.B.Winner'
+                                   team2='BrktC.Group.A.RunnerUp'
+                                   winner='BrktC.matchWinner.fiftyOne'></bracket-knock-out>
+
+                <li class="spacer">&nbsp;</li>
+
+                <bracket-knock-out class="round-of-16"
+                                   ng-model="BrktC.Group.D.Winner"
+                                   team1='BrktC.Group.D.Winner'
+                                   team2='BrktC.Group.C.RunnerUp'
+                                   winner='BrktC.matchWinner.fiftyTwo'></bracket-knock-out>
+
+                <li class="spacer">&nbsp;</li>
+
+                <bracket-knock-out class="round-of-16"
+                                   ng-model="BrktC.Group.F.Winner"
+                                   team1='BrktC.Group.F.Winner'
+                                   team2='BrktC.Group.E.RunnerUp'
+                                   winner='BrktC.matchWinner.fiftyFive'></bracket-knock-out>
+
+                <li class="spacer">&nbsp;</li>
+
+                <bracket-knock-out class="round-of-16"
+                                   ng-model="BrktC.Group.H.Winner"
+                                   team1='BrktC.Group.H.Winner'
+                                   team2='BrktC.Group.G.RunnerUp'
+                                   winner='BrktC.matchWinner.fiftySix'></bracket-knock-out>
+
+                <li class="spacer">&nbsp;</li>
+            </ul>
+            <ul class="round round-2">
+                <li class="spacer">&nbsp;</li>
+
+                <bracket-knock-out ng-model="BrktC.matchWinner.fourtyNine"
+                                   team1='BrktC.matchWinner.fourtyNine'
+                                   team2='BrktC.matchWinner.fifty'
+                                   winner='BrktC.matchWinner.fiftySeven'></bracket-knock-out>
+
+                <li class="spacer">&nbsp;</li>
+
+                <bracket-knock-out ng-model="BrktC.matchWinner.fiftyThree"
+                                   team1='BrktC.matchWinner.fiftyThree'
+                                   team2='BrktC.matchWinner.fiftyFour'
+                                   winner='BrktC.matchWinner.fiftyEight'></bracket-knock-out>
+
+                <li class="spacer">&nbsp;</li>
+
+                <bracket-knock-out ng-model="BrktC.matchWinner.fiftyOne"
+                                   team1='BrktC.matchWinner.fiftyOne'
+                                   team2='BrktC.matchWinner.fiftyTwo'
+                                   winner='BrktC.matchWinner.fiftyNine'></bracket-knock-out>
+
+                <li class="spacer">&nbsp;</li>
+
+                <bracket-knock-out ng-model="BrktC.matchWinner.fiftyFive"
+                                   team1='BrktC.matchWinner.fiftyFive'
+                                   team2='BrktC.matchWinner.fiftySix'
+                                   winner='BrktC.matchWinner.sixty'></bracket-knock-out>
+
+                <li class="spacer">&nbsp;</li>
+            </ul>
+            <ul class="round round-3">
+                <li class="spacer">&nbsp;</li>
+
+                <bracket-knock-out ng-model="BrktC.matchWinner.fiftySeven"
+                                   team1='BrktC.matchWinner.fiftySeven'
+                                   team2='BrktC.matchWinner.fiftyEight'
+                                   winner='BrktC.matchWinner.sixtyOne'></bracket-knock-out>
+
+                <li class="spacer">&nbsp;</li>
+
+                <bracket-knock-out ng-model="BrktC.matchWinner.fiftyNine"
+                                   team1='BrktC.matchWinner.fiftyNine'
+                                   team2='BrktC.matchWinner.sixty'
+                                   winner='BrktC.matchWinner.sixtyTwo'></bracket-knock-out>
+
+                <li class="spacer">&nbsp;</li>
+            </ul>
+            <ul class="round round-4">
+                <li class="spacer">&nbsp;</li>
+
+                <bracket-knock-out ng-model="BrktC.matchWinner.sixtyOne"
+                                   team1='BrktC.matchWinner.sixtyOne'
+                                   team2='BrktC.matchWinner.sixtyTwo'
+                                   winner='BrktC.Winner'></bracket-knock-out>
+
+                <li class="spacer">&nbsp;</li>
+            </ul>
+            <ul class="round champion"
+                id="champion">
+                <li class="spacer">&nbsp;</li>
+
+                <li class="game game-top">
+                    <div class="team"
+                         ng-if="BrktC.Winner != null">
+                        <img class="team-flag" ng-src="{{BrktC.Winner.FlagSrc}}" />
+                        <div class="team-name">{{BrktC.Winner.Country}}</div>
+                        <img src="~/Resources/Images/worldCup2018.png"
+                             id="trophy" />
+                    </div>
+                </li>
+                <li class="spacer">&nbsp;</li>
+            </ul>
+        </main>
+        <!-- /#knock-out -->
+    </div>
+    <!-- /.row -->
 
 </div>
 
@@ -53,5 +202,7 @@
 @section Scripts{
     <script src="~/Scripts/App/Brackets/bracketGroupStage.controller.js"></script>
     <script src="~/Scripts/App/Brackets/bracketGroupStage.directive.js"></script>
+    <script src="~/Scripts/App/Brackets/bracketKnockOut.controller.js"></script>
+    <script src="~/Scripts/App/Brackets/bracketKnockOut.directive.js"></script>
     <script src="~/Scripts/App/Brackets/bracket.controller.js"></script>
 }

@@ -1,0 +1,23 @@
+﻿<div class="group-name">{{vm.group.Name}}</div>
+<div class="group-stage-instructions">Do Something</div>
+<div class="team-container">
+    <div class="team"
+         ng-repeat="team in vm.group.Teams"
+         ng-class="{'winner':team.GroupRank == 1}"
+         ng-click="vm.selectTeam(team)">
+        <img class="team-flag" ng-src="{{team.FlagSrc}}" />
+        <div class="team-name">{{team.Country}}</div>
+        <div class="action-button">
+            <div class="action-text"
+                 ng-if="team.GroupRank == 0">
+            <span ng-if="vm.group.Winner == null || vm.group.RunnerUp == null">+</span>
+                <span ng-if="vm.group.Winner != null && vm.group.RunnerUp != null">Out</span>
+            </div>
+            <div class="action-text"
+                 ng-if="team.GroupRank == 1">1st</div>
+            <div class="action-text"
+                 ng-if="team.GroupRank == 2">2nd</div>
+        </div>
+    </div>
+</div>
+

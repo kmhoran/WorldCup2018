@@ -10,5 +10,9 @@
   {
     "outputFile": "Content/Brackets/Brackets.css",
     "inputFile": "Content/Brackets/Brackets.scss"
+  },
+  {
+    "outputFile": "Content/Brackets/TournamentBracketByQluij.css",
+    "inputFile": "Content/Brackets/TournamentBracketByQluij.scss"
   }
 ]

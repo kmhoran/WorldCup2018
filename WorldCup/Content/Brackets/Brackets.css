@@ -1,28 +1,64 @@
-﻿/* Builder Group Stage*/
-.group-stage-table .group-name {
-  font-weight: 700;
-  font-size: 1.2em; }
-
-.group-stage-table .group-stage-instructions {
-  font-size: 0.8em; }
-
-.group-stage-table .team {
-  display: inline-block;
+﻿/* team tiles */
+.team {
   margin: 0.5em;
   text-align: center;
   width: 6em; }
 
-.group-stage-table .team-flag {
-  width: 4em; }
+.team:hover {
+  cursor: pointer; }
 
-.group-stage-table .action-button {
-  width: 3em;
-  height: 3em;
-  text-align: center;
-  border-radius: 5000px;
-  border: 2px solid #888;
-  margin: auto; }
+/* Builder Group Stage*/
+.group-stage-table {
+  font-size: 0.8em; }
+  .group-stage-table .group-name {
+    font-weight: 700;
+    font-size: 1.2em; }
+  .group-stage-table .group-stage-instructions {
+    font-size: 0.8em; }
+  .group-stage-table .team {
+    display: inline-block; }
+  .group-stage-table .team.winner .team-name {
+    font-weight: 700; }
+  .group-stage-table .team-flag {
+    width: 4em; }
+  .group-stage-table .action-button {
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    border-radius: 5000px;
+    border: 2px solid #888;
+    margin: auto; }
+  .group-stage-table .team:hover .action-button {
+    color: red;
+    border-color: red; }
+  .group-stage-table .action-text {
+    font-size: 1.5em; }
 
-.group-stage-table .action-text {
-  font-size: 1.5em; }
+/* Builder Knockout */
+#knock-out {
+  font-size: 0.6em; }
+  #knock-out .round-of-16 {
+    background-color: #eef;
+    margin: 0.5em 0;
+    border-radius: 7px;
+    padding-left: 0.3em; }
+  #knock-out .team {
+    /*border: 1px solid red;*/
+    width: 10em;
+    text-align: left;
+    height: 2.5em; }
+  #knock-out .team.none {
+    background-color: green; }
+  #knock-out .team-name {
+    display: inline-block; }
+  #knock-out .team-flag {
+    width: 2em;
+    display: inline-block;
+    margin-right: 1em; }
+  #knock-out #champion .team {
+    width: 11em; }
+  #knock-out #trophy {
+    display: inline;
+    width: 1em;
+    margin-left: 0.7em; }
 
