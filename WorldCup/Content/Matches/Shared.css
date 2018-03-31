@@ -1,0 +1,26 @@
+﻿#calendar {
+  text-align: center;
+  font-size: 0.7em; }
+  #calendar td {
+    /*padding: 0 0.5em;*/
+    text-align: center;
+    padding: 0; }
+  #calendar td:not(.match-set) {
+    color: #888; }
+  #calendar td:not(.match-set) .match-count-frame {
+    /*opacity: 0;*/ }
+  #calendar td.match-set {
+    color: #5555aa; }
+  #calendar td.match-set:hover {
+    background-color: #aaaaff; }
+  #calendar .date-frame {
+    padding: 0 0.3em; }
+  #calendar td:not(:last-child) .date-frame {
+    margin: 0.5em 0;
+    border-right: 1px solid #aaa; }
+  #calendar .match-count {
+    font-size: 0.7em; }
+  #calendar td:not(:last-child) .match-count-frame {
+    margin: 0.2em 0;
+    border-right: 1px solid #aaa; }
+

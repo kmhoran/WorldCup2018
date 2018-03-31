@@ -14,5 +14,9 @@
   {
     "outputFile": "Content/Brackets/TournamentBracketByQluij.css",
     "inputFile": "Content/Brackets/TournamentBracketByQluij.scss"
+  },
+  {
+    "outputFile": "Content/Matches/Shared.css",
+    "inputFile": "Content/Matches/Shared.scss"
   }
 ]

@@ -1,0 +1,31 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_WorldCupLayout1.cshtml";
+    ViewBag.Title = "Index";
+}
+@section Meta{
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/Matches/Shared.min.css" rel="stylesheet" />
+}
+<div ng-controller="matchesController as MatchC">
+    <div id="calendar">
+        <table>
+            <tr>
+                <td ng-repeat="day in MatchC.dates"
+                    ng-class="{'match-set':day.matchCount > 0}">
+                    <div class="date-frame">
+                        <div>{{day.date | date:'EEE'}}</div>
+                        <div>{{day.date | date:'dd'}}</div>
+                    </div>
+                    <div class="match-count-frame">
+                        <div>{{day.matchCount}}</div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <h2>{{MatchC.test}}</h2>
+</div>
+@section Scripts{
+<script src="~/Scripts/App/Matches/matches.controller.js"></script>
+}

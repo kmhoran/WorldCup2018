@@ -1,0 +1,37 @@
+﻿$border: 1px solid #aaa;
+$blue: #aaaaff;
+#calendar{
+    text-align:center;
+    font-size: 0.7em;
+  td{
+      /*padding: 0 0.5em;*/
+      text-align: center;
+      padding: 0;
+  }
+  td:not(.match-set){
+      color: #888;
+  }
+  td:not(.match-set) .match-count-frame{
+      /*opacity: 0;*/
+  }
+  td.match-set{
+      color: #5555aa;
+  }
+  td.match-set:hover{
+      background-color: $blue;
+  }
+  .date-frame{
+      padding: 0 0.3em;
+  }
+  td:not(:last-child) .date-frame{
+      margin: 0.5em 0;
+      border-right: $border;
+  }
+  .match-count{
+      font-size: 0.7em;
+  }
+  td:not(:last-child) .match-count-frame{
+      margin: 0.2em 0;
+     border-right: $border;
+  }
+}

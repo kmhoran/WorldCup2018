@@ -40,10 +40,10 @@
         scope.$watch("vm.team2", _handleChange, false);
 
         function _handleChange() {
-            vm.winner.KnockOutWins--;
-            vm.winner = null;
-
-
+            if (vm.winner) {
+                vm.winner.KnockOutWins--;
+                vm.winner = null;
+            }
         }
     }
 })();

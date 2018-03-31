@@ -20,7 +20,8 @@
   .group-stage-table .team.winner .team-name {
     font-weight: 700; }
   .group-stage-table .team-flag {
-    width: 4em; }
+    width: 4em;
+    height: 2.5em; }
   .group-stage-table .action-button {
     width: 3em;
     height: 3em;

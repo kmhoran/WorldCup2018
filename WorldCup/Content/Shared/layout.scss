@@ -1,36 +1,50 @@
 ﻿
-#layout-logo{
+#layout-logo {
     font-size: 1.5em;
-    img{
+
+    img {
         height: 1.7em;
     }
 }
-.container{
+
+.container {
     padding: 3em;
 }
 
 /* Ressable Objects */
-.label-box{
+.label-box {
     min-height: 10em;
     border-radius: 5px;
     border: 2px solid #555;
     background-color: #eee;
-    .label-box-head{
+
+    .label-box-head {
         background-color: #555;
         color: #eee;
         font-weight: 700;
         font-size: 1.2em;
         padding: 0 1em;
     }
-    .label-box-body{
+
+    .label-box-body {
         padding: 0.5em 1em;
     }
 }
-.simple-box{
+
+.simple-box {
     min-height: 10em;
     border-radius: 5px;
     border: 2px solid #555;
     background-color: #eee;
     padding: 0.5em 1em;
 }
+
+
+
 /* End Reusable Objects */
+/* layout */
+.main li{
+    width: 5em;
+}
+
+/* End layout */
