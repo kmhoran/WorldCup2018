@@ -13,6 +13,12 @@
 /* Builder Group Stage*/
 .group-stage-table {
      font-size: 0.8em;
+     td{
+         text-align: center;
+     }
+     td:nth-child(even){
+         border-left: dashed 1px #aaa;
+     }
     .group-name {
         font-weight: 700;
         font-size: 1.2em;

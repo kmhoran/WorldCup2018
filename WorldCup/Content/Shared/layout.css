@@ -1,10 +1,25 @@
-﻿#layout-logo {
-  font-size: 1.5em; }
+﻿/* header */
+nav.navbar {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  z-index: 10; }
+
+#layout-logo {
+  font-size: 1.5em;
+  position: relative;
+  padding-right: 2em;
+  text-align: left; }
   #layout-logo img {
-    height: 1.7em; }
+    height: 1.5em;
+    position: absolute;
+    top: 0.2em;
+    left: 88%; }
 
 .container {
-  padding: 3em; }
+  padding: 3em;
+  overflow: hidden; }
 
 /* Ressable Objects */
 .label-box {
@@ -32,6 +47,4 @@
 /* layout */
 .main li {
   width: 5em; }
-
-/* End layout */
 

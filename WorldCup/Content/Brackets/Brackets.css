@@ -10,6 +10,10 @@
 /* Builder Group Stage*/
 .group-stage-table {
   font-size: 0.8em; }
+  .group-stage-table td {
+    text-align: center; }
+  .group-stage-table td:nth-child(even) {
+    border-left: dashed 1px #aaa; }
   .group-stage-table .group-name {
     font-weight: 700;
     font-size: 1.2em; }

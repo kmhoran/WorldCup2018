@@ -194,6 +194,8 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Brackets\Brackets.css">
@@ -312,8 +314,6 @@
     <Content Include="Scripts\App\Brackets\bracketGroupStage.directive.js" />
     <Content Include="Scripts\App\Brackets\bracketGroupStage.controller.js" />
     <Content Include="Scripts\App\Matches\matches.controller.js" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Resources\FutureImperfect\assets\fonts\fontawesome-webfont.eot" />
     <Content Include="Resources\FutureImperfect\assets\fonts\fontawesome-webfont.ttf" />
     <Content Include="Resources\FutureImperfect\assets\fonts\fontawesome-webfont.woff" />
@@ -393,7 +393,17 @@
     <Content Include="Content\Brackets\Brackets.scss" />
     <Content Include="Content\Brackets\TournamentBracketByQluij.scss" />
     <Content Include="Content\Matches\Shared.scss" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -475,9 +485,6 @@
     <Folder Include="Scripts\App\Shared\Templates\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />

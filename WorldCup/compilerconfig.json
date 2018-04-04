@@ -18,5 +18,9 @@
   {
     "outputFile": "Content/Matches/Shared.css",
     "inputFile": "Content/Matches/Shared.scss"
+  },
+  {
+    "outputFile": "Content/Shared/layout/_header.css",
+    "inputFile": "Content/Shared/theme.scss"
   }
 ]

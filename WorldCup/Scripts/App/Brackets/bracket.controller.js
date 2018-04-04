@@ -188,7 +188,7 @@
                 },
                 {
                     FlagSrc: "/Resources/Images/svg_flags/se.svg",
-                    Country: 'Sweeden',
+                    Country: 'Sweden',
                     GroupRank: 0,
                     KnockOutWins: 0
                 },
