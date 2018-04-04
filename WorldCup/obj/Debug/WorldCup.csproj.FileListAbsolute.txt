@@ -70,5 +70,6 @@ C:\_Files\_Kevin\ICS\Projects\2018_2Spring\WorldCup\WorldCup\WorldCup\bin\Micros
 C:\_Files\_Kevin\ICS\Projects\2018_2Spring\WorldCup\WorldCup\WorldCup\bin\Microsoft.Owin.Security.Google.xml
 C:\_Files\_Kevin\ICS\Projects\2018_2Spring\WorldCup\WorldCup\WorldCup\bin\Microsoft.Owin.Security.Twitter.xml
 C:\_Files\_Kevin\ICS\Projects\2018_2Spring\WorldCup\WorldCup\WorldCup\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\_Files\_Kevin\ICS\Projects\2018_2Spring\WorldCup\WorldCup\WorldCup\obj\Debug\WorldCup.csprojResolveAssemblyReference.cache
 C:\_Files\_Kevin\ICS\Projects\2018_2Spring\WorldCup\WorldCup\WorldCup\obj\Debug\WorldCup.dll
 C:\_Files\_Kevin\ICS\Projects\2018_2Spring\WorldCup\WorldCup\WorldCup\obj\Debug\WorldCup.pdb

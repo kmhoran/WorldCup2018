@@ -216,6 +216,10 @@
     <Content Include="Content\Matches\Shared.min.css">
       <DependentUpon>Shared.css</DependentUpon>
     </Content>
+    <Content Include="Content\Shared\layout\_header.css" />
+    <Content Include="Content\Shared\layout\_header.min.css">
+      <DependentUpon>_header.css</DependentUpon>
+    </Content>
     <Content Include="Content\Shared\theme.min.css">
       <DependentUpon>theme.css</DependentUpon>
     </Content>
