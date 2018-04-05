@@ -1,6 +1,6 @@
 .vs/
 obj/
-bin/
 *.mdf
 *.ldf
-*.config
+App.config
+Web.config
