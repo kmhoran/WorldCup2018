@@ -1,2 +1,7 @@
 .vs/
 packages/
+obj/
+bin/
+*.mdf
+*.ldf
+*.config
