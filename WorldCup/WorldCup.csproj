@@ -216,10 +216,6 @@
     <Content Include="Content\Matches\Shared.min.css">
       <DependentUpon>Shared.css</DependentUpon>
     </Content>
-    <Content Include="Content\Shared\layout\_header.css" />
-    <Content Include="Content\Shared\layout\_header.min.css">
-      <DependentUpon>_header.css</DependentUpon>
-    </Content>
     <Content Include="Content\Shared\theme.min.css">
       <DependentUpon>theme.css</DependentUpon>
     </Content>
@@ -358,24 +354,10 @@
     </None>
     <Content Include="Content\Shared\base\_page.scss" />
     <Content Include="Content\Shared\base\_typography.scss" />
-    <Content Include="Content\Shared\components\_author.scss" />
-    <Content Include="Content\Shared\components\_blurb.scss" />
-    <Content Include="Content\Shared\components\_box.scss" />
-    <Content Include="Content\Shared\components\_button.scss" />
-    <Content Include="Content\Shared\components\_form.scss" />
-    <Content Include="Content\Shared\components\_icon.scss" />
-    <Content Include="Content\Shared\components\_image.scss" />
-    <Content Include="Content\Shared\components\_list.scss" />
-    <Content Include="Content\Shared\components\_mini-post.scss" />
     <Content Include="Content\Shared\components\_post.scss" />
-    <Content Include="Content\Shared\components\_section.scss" />
-    <Content Include="Content\Shared\components\_table.scss" />
     <Content Include="Content\Shared\layout\_footer.scss" />
     <Content Include="Content\Shared\layout\_header.scss" />
-    <Content Include="Content\Shared\layout\_intro.scss" />
-    <Content Include="Content\Shared\layout\_main.scss" />
     <Content Include="Content\Shared\layout\_menu.scss" />
-    <Content Include="Content\Shared\layout\_sidebar.scss" />
     <Content Include="Content\Shared\layout\_wrapper.scss" />
     <Content Include="Content\Shared\libs\_functions.scss" />
     <Content Include="Content\Shared\libs\_mixins.scss" />
